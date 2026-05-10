@@ -2,9 +2,11 @@ import streamlit as st
 import numpy as np
 from PIL import Image
 import tensorflow as tf
+import streamlit as st
 
+st.write("App started successfully")
 # load model
-model = tf.keras.models.load_model("Modelplant_newplant_aspp_plantdetection.h5")
+#model = tf.keras.models.load_model("Modelplant_newplant_aspp_plantdetection.h5")
 
 # class labels
 classes = ["Healthy", "Apple Scab", "Black Rot", "Leaf Blotch"]
